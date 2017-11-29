@@ -44,7 +44,7 @@
                 </a>
                 <nav id="header-menu-nav" class="right">
                     
-                    <a  href="/">
+                    <a  href="//plum-blossom.top">
                         <i class="fa fa-home"></i>
                         <span>主页</span>
                     </a>
@@ -54,7 +54,7 @@
                         <span>档案</span>
                     </a>
                     
-                    <a  href="/about">
+                    <a  href="/关于">
                         <i class="fa fa-user"></i>
                         <span>关于我</span>
                     </a>
@@ -289,15 +289,26 @@
 
 
     
-        <!--PC版-->
-<div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cytl0r4lw',
-conf: 'prod_e17aa03f343d4c342b42ae8065612101'
-});
-</script>
+        
+    <section id="comments">
+  <!--高速版，加载速度快，使用前需测试页面的兼容性-->
+  <div id="SOHUCS" sid="Hello World"></div>
+  <script>
+    (function(){
+      var appid = 'cytl0r4lw',
+      conf = 'prod_e17aa03f343d4c342b42ae8065612101';
+      var doc = document,
+      s = doc.createElement('script'),
+      h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+      s.type = 'text/javascript';
+      s.charset = 'utf-8';
+      s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+      h.insertBefore(s,h.firstChild);
+      window.SCS_NO_IFRAME = true;
+    })()
+  </script>    
+    </section>
+    
     
 </section>
         
@@ -355,7 +366,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
             
         </div>
         <div id="sidebar-menu-box-tags">
-            
+            <a href="/tags/博客，文章，笔记/" style="font-size: 10px;">博客，文章，笔记</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -366,7 +377,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
         <ul class="mobile-header-menu-navbar">
             
             <li>
-                <a  href="/">
+                <a  href="//plum-blossom.top">
                     <i class="fa fa-home"></i><span>主页</span>
                 </a>
             </li>
@@ -378,7 +389,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
             </li>
             
             <li>
-                <a  href="/about">
+                <a  href="/关于">
                     <i class="fa fa-user"></i><span>关于我</span>
                 </a>
             </li>
@@ -388,7 +399,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            
+            <a href="/tags/博客，文章，笔记/" style="font-size: 10px;">博客，文章，笔记</a>
         </div>
     </div>
 </div>

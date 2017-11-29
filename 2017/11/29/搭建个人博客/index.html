@@ -9,12 +9,13 @@
     <meta name="keywords" content="plum-blossom,plum-blossom's Blog" />
   
   <meta name="description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaS">
+<meta name="keywords" content="博客，文章，笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2017/11/29/搭建个人博客/index.html">
 <meta property="og:site_name" content="❤plum">
 <meta property="og:description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaScript语法     注意：建议安装版本6.x     测试环境：     w">
-<meta property="og:updated_time" content="2017-11-29T09:59:38.061Z">
+<meta property="og:updated_time" content="2017-11-29T10:39:04.693Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建个人博客">
 <meta name="twitter:description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaScript语法     注意：建议安装版本6.x     测试环境：     w">
@@ -44,7 +45,7 @@
                 </a>
                 <nav id="header-menu-nav" class="right">
                     
-                    <a  href="/">
+                    <a  href="//plum-blossom.top">
                         <i class="fa fa-home"></i>
                         <span>主页</span>
                     </a>
@@ -54,7 +55,7 @@
                         <span>档案</span>
                     </a>
                     
-                    <a  href="/about">
+                    <a  href="/关于">
                         <i class="fa fa-user"></i>
                         <span>关于我</span>
                     </a>
@@ -143,7 +144,7 @@
     <div class="article-entry post-content" itemprop="articleBody">
       
             
-            <p>搭建个人博客   plum-blossom<br>|—————————————————–|<br>|清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache |<br>|—————————————————–|<br>一、基础环境配置<br>   1.安装node<br>     node：一款运行效率非常高的web服务器，采用JavaScript语法<br>     注意：建议安装版本6.x<br>     测试环境：<br>     win+r回车，输入cmd回车，输入node -v<br>   2.安装git<br>   git：版本控制器，团队协作开发的时候使用<br>二、安装hexo脚手架<br>   npm install hexo-cli -g  //在全局安装hexo脚手架<br>   从node服务器下载hexo脚手架到本机<br>   node服务器在国外，怎么办？<br>   切换镜像（切换服务器）：npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>   安装：<br>   cnpm install hexo-cli -g  //在全局安装hexo脚手架<br>三、创建博客项目<br>    1.桌面新建名为blog的文件夹（Git Bash Here ）<br>      命令：mkdir blog<br>    2.进入blog文件夹<br>      命令：cd blog<br>    3.初始化博客项目（在blog文件夹完成）<br>      命令：hexo init<br>    4.导入npm依赖包<br>      命令：cnpm install （简写：cnpm i）<br>    5.启动hexo项目服务器<br>      命令：hexo s<br>      启动之后可以在浏览器地址输入：localhost：4000预览博客<br>      如若4000端口浏览不出，用下命令：<br>         hexo server -p 4001<br>    6.编译博客<br>      每当博客内容有更改的时候，需要先编译（Visual Studio）再刷新浏览器<br>      命令：hexo g<br>      添加文章命令：hexo new 文章名<br>四、美化博客<br>    1.更换博客主题<br>      cd themes<br>      git clone <a href="https://github.com/WongMinHo/hexo-theme-miho.git" target="_blank" rel="noopener">https://github.com/WongMinHo/hexo-theme-miho.git</a><br>      修改hexo根目录下的 _config.yml ： theme: hexo-theme-miho<br>      保存然后hexo g<br>    2.另一个主题：<br>       $ hexo init blog<br>       $ cd blog &amp;&amp; npm install<br>       $ git clone <a href="https://github.com/littlewin-wang/hexo-theme-casual" target="_blank" rel="noopener">https://github.com/littlewin-wang/hexo-theme-casual</a> themes/casual<br>       修改hexo根目录下的 _config.yml ： theme: casual<br>    3.如果不行先npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive，在git clone。<br>    4.导航条设置<br>       命令：<br>           hexo new page 关于<br>    5.主题<br>     git clone <a href="https://github.com/shenliyang/hexo-theme-snippet.git" target="_blank" rel="noopener">https://github.com/shenliyang/hexo-theme-snippet.git</a><br>四、git常用命令<br>    1.在任意位置选择右键选择git bash here可以再cmd打开当前路径<br>    2.路径转换：<br>      返回上级目录：cd ..<br>      进入下级目录：cd 路径名称<br>    3.显示当前路径的文件、夹列表：ls<br>    4.创建文件夹：mkdir 文件名<br>    5.切换盘符：<br>      如：当前在c盘某路径，需要进入d盘某路径</p>
+            <p>搭建个人博客   plum-blossom<br>|—————————————————–|<br>|清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache |<br>|—————————————————–|<br>一、基础环境配置<br>   1.安装node<br>     node：一款运行效率非常高的web服务器，采用JavaScript语法<br>     注意：建议安装版本6.x<br>     测试环境：<br>     win+r回车，输入cmd回车，输入node -v<br>   2.安装git<br>   git：版本控制器，团队协作开发的时候使用<br>二、安装hexo脚手架<br>   npm install hexo-cli -g  //在全局安装hexo脚手架<br>   从node服务器下载hexo脚手架到本机<br>   node服务器在国外，怎么办？<br>   切换镜像（切换服务器）：npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>   安装：<br>   cnpm install hexo-cli -g  //在全局安装hexo脚手架<br>三、创建博客项目<br>    1.桌面新建名为blog的文件夹（Git Bash Here ）<br>      命令：mkdir blog<br>    2.进入blog文件夹<br>      命令：cd blog<br>    3.初始化博客项目（在blog文件夹完成）<br>      命令：hexo init<br>    4.导入npm依赖包<br>      命令：cnpm install （简写：cnpm i）<br>    5.启动hexo项目服务器<br>      命令：hexo s<br>      启动之后可以在浏览器地址输入：localhost：4000预览博客<br>      如若4000端口浏览不出，用下命令：<br>         hexo server -p 4001<br>    6.编译博客<br>      每当博客内容有更改的时候，需要先编译（Visual Studio）再刷新浏览器<br>      命令：hexo g<br>      添加文章命令：hexo new 文章名<br>四、美化博客<br>    1.更换博客主题<br>      cd themes<br>      git clone <a href="https://github.com/WongMinHo/hexo-theme-miho.git" target="_blank" rel="noopener">https://github.com/WongMinHo/hexo-theme-miho.git</a><br>      修改hexo根目录下的 _config.yml ： theme: hexo-theme-miho<br>      保存然后hexo g<br>    2.另一个主题：<br>       $ hexo init blog<br>       $ cd blog &amp;&amp; npm install<br>       $ git clone <a href="https://github.com/littlewin-wang/hexo-theme-casual" target="_blank" rel="noopener">https://github.com/littlewin-wang/hexo-theme-casual</a> themes/casual<br>       修改hexo根目录下的 _config.yml ： theme: casual<br>    3.如果不行先npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive，在git clone。<br>    4.导航条设置<br>       命令：<br>           hexo new page 关于<br>    5.主题<br>     git clone <a href="https://github.com/shenliyang/hexo-theme-snippet.git" target="_blank" rel="noopener">https://github.com/shenliyang/hexo-theme-snippet.git</a><br>    6.添加标<br>       \hexo\source_posts中打开这个文件，配置开头<br>       tags: [博客，文章，笔记]<br>四、git常用命令<br>    1.在任意位置选择右键选择git bash here可以再cmd打开当前路径<br>    2.路径转换：<br>      返回上级目录：cd ..<br>      进入下级目录：cd 路径名称<br>    3.显示当前路径的文件、夹列表：ls<br>    4.创建文件夹：mkdir 文件名<br>    5.切换盘符：<br>      如：当前在c盘某路径，需要进入d盘某路径</p>
 <pre><code>1. d： 回车（输入d冒号空号然后回车）
 2. cd 详细路径
 </code></pre><p>五、gitHub的使用<br>    1、本地创建ssh key<br>       桌面右键git bash here,然后输入ssh-keygen -t rsa -C “邮箱”<br>       记住ssh key的保存路径，然后一路回车，直到显示很多小圆圈<br>       默认路径：c:/users/用户名/.ssh<br>    2.打开c:/users/用户名/.ssh文件夹下的id_rsa.pub文件（记事本）<br>       Ctrl+a全选，后Ctrl+c复制备用<br>    3.打开github.com登录账户，点击头像右侧小三角在在下拉菜单中选择settings<br>      在新页面左侧选择ssh and gpg keys，然后点击右侧绿色new ssh key按钮<br>      title：随意填<br>      key：Ctrl+V粘贴刚才复制的key，然后点击下方绿色add ssh key按钮<br>    4.回到git命令行工具，输入ssh -T git@github.com回车  (连接到github服务器)<br>      如果提示Hi plum-blossom! You’ve successfully authenticated, but GitHub does not provide shell access.代表key成功<br>    5.验证github邮箱和用户名：<br>      在git命令行窗口输入：<br>       git config –global user.email “you@example.com”<br>       git config –global user.name “Your Name”<br>      注意：编辑英文符号和空格<br>    6.github创建仓库<br>      github页面点击头像左侧加号，点击下拉列表第一个按钮<br>      填写Repository name，仓库名，后点击最下方Create repository按钮</p>
@@ -170,7 +171,7 @@
 
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2017年11月29日 17:59</p>
+        <p>最后更新： 2017年11月29日 18:39</p>
         <p>原始链接： <a class="post-url" href="/2017/11/29/搭建个人博客/" title="搭建个人博客">http://yoursite.com/2017/11/29/搭建个人博客/</a></p>
         <footer>
             <a href="http://yoursite.com">
@@ -272,6 +273,13 @@
         <ul class="article-footer-menu">
             
             
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/博客，文章，笔记/" class="color4">博客，文章，笔记</a>
+      
+  </li>
+
         </ul>
         
     </footer>
@@ -303,15 +311,26 @@
 
 
     
-        <!--PC版-->
-<div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cytl0r4lw',
-conf: 'prod_e17aa03f343d4c342b42ae8065612101'
-});
-</script>
+        
+    <section id="comments">
+  <!--高速版，加载速度快，使用前需测试页面的兼容性-->
+  <div id="SOHUCS" sid="搭建个人博客"></div>
+  <script>
+    (function(){
+      var appid = 'cytl0r4lw',
+      conf = 'prod_e17aa03f343d4c342b42ae8065612101';
+      var doc = document,
+      s = doc.createElement('script'),
+      h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+      s.type = 'text/javascript';
+      s.charset = 'utf-8';
+      s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+      h.insertBefore(s,h.firstChild);
+      window.SCS_NO_IFRAME = true;
+    })()
+  </script>    
+    </section>
+    
     
 </section>
         
@@ -369,7 +388,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
             
         </div>
         <div id="sidebar-menu-box-tags">
-            
+            <a href="/tags/博客，文章，笔记/" style="font-size: 10px;">博客，文章，笔记</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -380,7 +399,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
         <ul class="mobile-header-menu-navbar">
             
             <li>
-                <a  href="/">
+                <a  href="//plum-blossom.top">
                     <i class="fa fa-home"></i><span>主页</span>
                 </a>
             </li>
@@ -392,7 +411,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
             </li>
             
             <li>
-                <a  href="/about">
+                <a  href="/关于">
                     <i class="fa fa-user"></i><span>关于我</span>
                 </a>
             </li>
@@ -402,7 +421,7 @@ conf: 'prod_e17aa03f343d4c342b42ae8065612101'
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            
+            <a href="/tags/博客，文章，笔记/" style="font-size: 10px;">博客，文章，笔记</a>
         </div>
     </div>
 </div>
