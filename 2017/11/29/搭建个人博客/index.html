@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>搭建个人博客 | ❤plum</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="plum-blossom,plum-blossom's Blog" />
+  
+  <meta name="description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/2017/11/29/搭建个人博客/index.html">
+<meta property="og:site_name" content="❤plum">
+<meta property="og:description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaScript语法     注意：建议安装版本6.x     测试环境：     w">
+<meta property="og:updated_time" content="2017-11-29T09:59:38.061Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搭建个人博客">
+<meta name="twitter:description" content="搭建个人博客   plum-blossom|—————————————————–||清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache ||—————————————————–|一、基础环境配置   1.安装node     node：一款运行效率非常高的web服务器，采用JavaScript语法     注意：建议安装版本6.x     测试环境：     w">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/pace.min.js"></script>
+  
+
+  
+  
+
+</head>
+
+<body>
+  <div id="container">
+      <header id="header">
+    <div id="banner"></div>
+    <div id="header-outer">
+        <div id="header-menu" class="header-menu-pos animated">
+            <div class="header-menu-container">
+                <a href="/" class="left">
+                    <span class="site-title">plum-blossom&#39;s Blog</span>
+                </a>
+                <nav id="header-menu-nav" class="right">
+                    
+                    <a  href="/">
+                        <i class="fa fa-home"></i>
+                        <span>主页</span>
+                    </a>
+                    
+                    <a  href="/archives">
+                        <i class="fa fa-archive"></i>
+                        <span>档案</span>
+                    </a>
+                    
+                    <a  href="/about">
+                        <i class="fa fa-user"></i>
+                        <span>关于我</span>
+                    </a>
+                    
+                </nav>
+                <a class="mobile-header-menu-button">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="header-row">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/logo.gif" alt="logo">
+                </a>
+            </div>
+            <div class="header-info">
+                <div id="header-title">
+                    
+                    <h2>
+                        plum-blossom&#39;s Blog
+                    </h2>
+                    
+                </div>
+                <div id="header-description">
+                    
+                    <h3>
+                        一个专注学习web的博客
+                    </h3>
+                    
+                </div>
+            </div>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a title="home" target="_blank" href="//plum-blossom.top">
+                            <i class="fa fa-home fa-2x"></i></a>
+                    
+                        <a title="Github" target="_blank" href="//github.com/plum-blossom">
+                            <i class="fa fa-github fa-2x"></i></a>
+                    
+                        <a title="Twitter" target="_blank" href="//twitter.com/huangminhow">
+                            <i class="fa fa-twitter fa-2x"></i></a>
+                    
+                        <a title="Weibo" target="_blank" href="//weibo.com/柔雨轻风飘">
+                            <i class="fa fa-weibo fa-2x"></i></a>
+                    
+                        <a title="QQ" target="_blank" href="//user.qzone.qq.com/2510902754">
+                            <i class="fa fa-qq fa-2x"></i></a>
+                    
+                        <a title="weixin" target="_blank" href="//wx.qq.com/dxm-0901">
+                            <i class="fa fa-weixin fa-2x"></i></a>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+      <div class="outer">
+        <section id="main" class="body-wrap"><article id="post-搭建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="post-title" itemprop="name">
+      搭建个人博客
+    </h1>
+    <div class="post-title-bar">
+      <ul>
+          
+        <li>
+          <i class="fa fa-calendar"></i>  2017-11-29
+        </li>
+        <li>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_value_page_pv"></span>
+        </li>
+      </ul>
+    </div>
+  
+
+          
+      </header>
+    
+    <div class="article-entry post-content" itemprop="articleBody">
+      
+            
+            <p>搭建个人博客   plum-blossom<br>|—————————————————–|<br>|清除缓存命令：Ctrl+shift+i 点Netwrok √Disable cache |<br>|—————————————————–|<br>一、基础环境配置<br>   1.安装node<br>     node：一款运行效率非常高的web服务器，采用JavaScript语法<br>     注意：建议安装版本6.x<br>     测试环境：<br>     win+r回车，输入cmd回车，输入node -v<br>   2.安装git<br>   git：版本控制器，团队协作开发的时候使用<br>二、安装hexo脚手架<br>   npm install hexo-cli -g  //在全局安装hexo脚手架<br>   从node服务器下载hexo脚手架到本机<br>   node服务器在国外，怎么办？<br>   切换镜像（切换服务器）：npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>   安装：<br>   cnpm install hexo-cli -g  //在全局安装hexo脚手架<br>三、创建博客项目<br>    1.桌面新建名为blog的文件夹（Git Bash Here ）<br>      命令：mkdir blog<br>    2.进入blog文件夹<br>      命令：cd blog<br>    3.初始化博客项目（在blog文件夹完成）<br>      命令：hexo init<br>    4.导入npm依赖包<br>      命令：cnpm install （简写：cnpm i）<br>    5.启动hexo项目服务器<br>      命令：hexo s<br>      启动之后可以在浏览器地址输入：localhost：4000预览博客<br>      如若4000端口浏览不出，用下命令：<br>         hexo server -p 4001<br>    6.编译博客<br>      每当博客内容有更改的时候，需要先编译（Visual Studio）再刷新浏览器<br>      命令：hexo g<br>      添加文章命令：hexo new 文章名<br>四、美化博客<br>    1.更换博客主题<br>      cd themes<br>      git clone <a href="https://github.com/WongMinHo/hexo-theme-miho.git" target="_blank" rel="noopener">https://github.com/WongMinHo/hexo-theme-miho.git</a><br>      修改hexo根目录下的 _config.yml ： theme: hexo-theme-miho<br>      保存然后hexo g<br>    2.另一个主题：<br>       $ hexo init blog<br>       $ cd blog &amp;&amp; npm install<br>       $ git clone <a href="https://github.com/littlewin-wang/hexo-theme-casual" target="_blank" rel="noopener">https://github.com/littlewin-wang/hexo-theme-casual</a> themes/casual<br>       修改hexo根目录下的 _config.yml ： theme: casual<br>    3.如果不行先npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive，在git clone。<br>    4.导航条设置<br>       命令：<br>           hexo new page 关于<br>    5.主题<br>     git clone <a href="https://github.com/shenliyang/hexo-theme-snippet.git" target="_blank" rel="noopener">https://github.com/shenliyang/hexo-theme-snippet.git</a><br>四、git常用命令<br>    1.在任意位置选择右键选择git bash here可以再cmd打开当前路径<br>    2.路径转换：<br>      返回上级目录：cd ..<br>      进入下级目录：cd 路径名称<br>    3.显示当前路径的文件、夹列表：ls<br>    4.创建文件夹：mkdir 文件名<br>    5.切换盘符：<br>      如：当前在c盘某路径，需要进入d盘某路径</p>
+<pre><code>1. d： 回车（输入d冒号空号然后回车）
+2. cd 详细路径
+</code></pre><p>五、gitHub的使用<br>    1、本地创建ssh key<br>       桌面右键git bash here,然后输入ssh-keygen -t rsa -C “邮箱”<br>       记住ssh key的保存路径，然后一路回车，直到显示很多小圆圈<br>       默认路径：c:/users/用户名/.ssh<br>    2.打开c:/users/用户名/.ssh文件夹下的id_rsa.pub文件（记事本）<br>       Ctrl+a全选，后Ctrl+c复制备用<br>    3.打开github.com登录账户，点击头像右侧小三角在在下拉菜单中选择settings<br>      在新页面左侧选择ssh and gpg keys，然后点击右侧绿色new ssh key按钮<br>      title：随意填<br>      key：Ctrl+V粘贴刚才复制的key，然后点击下方绿色add ssh key按钮<br>    4.回到git命令行工具，输入ssh -T git@github.com回车  (连接到github服务器)<br>      如果提示Hi plum-blossom! You’ve successfully authenticated, but GitHub does not provide shell access.代表key成功<br>    5.验证github邮箱和用户名：<br>      在git命令行窗口输入：<br>       git config –global user.email “you@example.com”<br>       git config –global user.name “Your Name”<br>      注意：编辑英文符号和空格<br>    6.github创建仓库<br>      github页面点击头像左侧加号，点击下拉列表第一个按钮<br>      填写Repository name，仓库名，后点击最下方Create repository按钮</p>
+<pre><code>#7.桌面右键git bash here，copy以下命令：
+  echo &quot;#test&quot; &gt;&gt; README.md   #在桌面创建内容为“测试”的md文件
+  git init                    #初始化git
+
+  git add README.md           #添加刚才生成的md文件
+
+  git commit -m &quot;我的第一次提交&quot;   #编写更新说明
+  git remote add origin https://github.com/plum-blossom/test.git  #设置需要提交的仓库
+
+  git push -u origin master  #向仓库推送文件
+   第一次推送成功后，后续还需要推送文件到之前仓库怎么办？三步：
+    git add 文件名.后缀
+    Git commit -m &quot;更新说明&quot;
+    git push -u origin master
+----------------------------------------------------------------------------------------------------|
+</code></pre><p>   ！注意： #git add “目录”<br>     git add .都会提示这样一个警告消息：<br>     warning: LF will be replaced by CRLF in XXXXXXXXXXXXXX.<br>     虽然说没有什么影响吧。不过就是觉得太碍眼了，按照这样设置就没有问题了:</p>
+<pre><code>git config core.autocrlf false
+</code></pre><p>   这样设置git的配置后在执行add操作就没有问题了。<br>   —————————————————————————————————–|<br>   ！注意：如果输入$ git remote add origin git@github.com:djqiang（github帐号名）/gitdemo（项目名）.git<br>    提示出错信息：fatal: remote origin already exists.<br>    解决办法如下：<br>    1、先输入$ git remote rm origin<br>    2、再输入$ git remote add origin git@github.com:djqiang/gitdemo.git 就不会报错了！<br>   —————————————————————————————————–|<br>   如果输入$ git push origin master<br>    提示出错信息：error:failed to push som refs to …….<br>    解决办法如下：<br>    1、先输入$ git pull origin master //先把远程服务器github上面的文件拉下来<br>    2、再输入$ git push origin master<br>    3、如果出现报错 fatal: Couldn’t find remote ref master或者fatal: ‘origin’ does not appear to be a git repository以及fatal: Could not read from remote repository.<br>    4、则需要重新输入$ git remote add origin git@github.com:djqiang/gitdemo.git</p>
+<p>   github常见操作和常见错误网址：<a href="http://blog.csdn.net/dengjianqiang2011/article/details/9260435" target="_blank" rel="noopener">http://blog.csdn.net/dengjianqiang2011/article/details/9260435</a></p>
+<p>六、代码托管到github<br>    1.在博客项目根目录的_config.yml文件的底部添加如下信息：<br>      deploy：<br>      type: git<br>      repository: <a href="https://github.com/plum-blossom/plum-blossom.github.io.git" target="_blank" rel="noopener">https://github.com/plum-blossom/plum-blossom.github.io.git</a><br>      branch: master<br>      注意格式的缩进跟_config.yml里面其他项保持一致<br>    2,。添加依赖包：<br>      命令执行：npm install hexo-deployer-git –save (在Git bash here中)<br>    3.执行：hexo g编译博客项目<br>    4.执行hexo d将代码托管到github<br>      如果成功，可以通过用户名.github.io访问个人博客<br>      手机访问plum-blossom.github.io<br>      登录github.com在建新存储库，名为plum-blossom.github.io<br>七、域名解析<br>    记录类型  主机记录 解析线路（isp） 记录值<br>    CNAME       www     默认           用户名.github.io<br>    A           @       默认           192.30.252.153<br>    A           @       默认           192.30.252.154<br>八、域名绑定到个人博客<br>    1.public右击新建文件名：CNAME,并进入添加plum-blossom.top，然后保存编译，再hexo d<br>九、安装评论系统<br>    1.进入<a href="http://changyan.kuaizhan.com注册账号" target="_blank" rel="noopener">http://changyan.kuaizhan.com注册账号</a><br>    2.通用代码-PC端安装代码，复制代码<br>      appid: ‘cytl0r4lw’,    中的 cytl0r4lw<br>      conf: ‘prod_e17aa03f343d4c342b42ae8065612101’ 中的 prod_e17aa03f343d4c342b42ae8065612101<br>    3.编译器中进入themes-hexo-theme-miho-!_config.yml,# 畅言，输入appid和appkey 粘贴<br>    4.themes-hexo-theme-miho-layout-comments-changyan.ejs粘贴PC端安装代码全代码<br>    5.进入<a href="http://changyan.kuaizhan.com/setting/pc/show，PC版设置的显示配置，勾选底部评论框浮层。" target="_blank" rel="noopener">http://changyan.kuaizhan.com/setting/pc/show，PC版设置的显示配置，勾选底部评论框浮层。</a><br>    6.保存编译<br>博客地址：<a href="http://lidg.vip/" target="_blank" rel="noopener">http://lidg.vip/</a></p>
+
+            <div class="post-copyright">
+    <div class="content">
+        <p>最后更新： 2017年11月29日 17:59</p>
+        <p>原始链接： <a class="post-url" href="/2017/11/29/搭建个人博客/" title="搭建个人博客">http://yoursite.com/2017/11/29/搭建个人博客/</a></p>
+        <footer>
+            <a href="http://yoursite.com">
+                <img src="/images/logo.gif" alt="plum-blossom">
+                plum-blossom
+            </a>
+        </footer>
+    </div>
+</div>
+
+      
+        
+            
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;">赏</a>
+</div>
+
+<div id="reward" class="post-modal reward-lay">
+    <a class="close" href="javascript:;" id="reward-close">×</a>
+    <span class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        多少都行~
+        <i class="icon icon-quote-right"></i>
+    </span>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/images/IMG_20171125_163126.png" alt="打赏二维码">
+        </div>
+        <div class="reward-select">
+            
+            <label class="reward-select-item checked" data-id="wechat" data-wechat="/images/IMG_20171125_163126.png">
+                <img class="reward-select-item-wechat" src="/images/wechat.png" alt="微信">
+            </label>
+            
+            
+            <label class="reward-select-item" data-id="alipay" data-alipay="/images/IMG_20171125_163503.jpg">
+                <img class="reward-select-item-alipay" src="/images/alipay.png" alt="支付宝">
+            </label>
+            
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+    <footer class="article-footer">
+        
+        
+<div class="post-share">
+    <a href="javascript:;" id="share-sub" class="post-share-fab">
+        <i class="fa fa-share-alt"></i>
+    </a>
+    <div class="post-share-list" id="share-list">
+        <ul class="share-icons">
+          <li>
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2017/11/29/搭建个人博客/&title=《搭建个人博客》 — ❤plum&pic=http://yoursite.comimages/logo.gif" data-title="微博">
+              <i class="fa fa-weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="weixin share-sns" id="wxFab" href="javascript:;" data-title="微信">
+              <i class="fa fa-weixin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2017/11/29/搭建个人博客/&title=《搭建个人博客》 — ❤plum&source=" data-title="QQ">
+              <i class="fa fa-qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/11/29/搭建个人博客/" data-title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《搭建个人博客》 — ❤plum&url=http://yoursite.com/2017/11/29/搭建个人博客/&via=http://yoursite.com" data-title="Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2017/11/29/搭建个人博客/" data-title="Google+">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+     </div>
+</div>
+<div class="post-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;" id="wxShare-close">×</a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2017/11/29/搭建个人博客/" alt="微信分享二维码">
+</div>
+
+<div class="mask"></div>
+
+        
+        <ul class="article-footer-menu">
+            
+            
+        </ul>
+        
+    </footer>
+  </div>
+</article>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2017/11/29/markdown语法/" id="article-nav-newer" class="article-nav-link-wrap">
+
+      <span class="article-nav-title">
+        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        
+          markdown语法
+        
+      </span>
+    </a>
+  
+  
+    <a href="/2017/11/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">Hello World</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
+
+
+
+    
+</section>
+        
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+      <p>
+        Powered by  <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Theme <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">MiHo</a>
+      &copy; 2017 plum-blossom<br>
+      </p>
+    </div>
+  </div>
+</footer>
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var mihoConfig = {
+      root: "http://yoursite.com",
+      animate: true,
+      isHome: false,
+      share: true,
+      reward: 1
+  }
+</script>
+<div class="sidebar">
+    <div id="sidebar-search" title="Search">
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="sidebar-category" title="Categories">
+        <i class="fa fa-book"></i>
+    </div>
+    <div id="sidebar-tag" title="Tags">
+        <i class="fa fa-tags"></i>
+    </div>
+    <div id="sidebar-top">
+        <span class="sidebar-top-icon"><i class="fa fa-angle-up"></i></span>
+    </div>
+</div>
+<div class="sidebar-menu-box" id="sidebar-menu-box">
+    <div class="sidebar-menu-box-container">
+        <div id="sidebar-menu-box-categories">
+            
+        </div>
+        <div id="sidebar-menu-box-tags">
+            
+        </div>
+    </div>
+    <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
+</div>
+<div class="mobile-header-menu-nav" id="mobile-header-menu-nav">
+    <div class="mobile-header-menu-container">
+        <span class="title">Menus</span>
+        <ul class="mobile-header-menu-navbar">
+            
+            <li>
+                <a  href="/">
+                    <i class="fa fa-home"></i><span>主页</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/archives">
+                    <i class="fa fa-archive"></i><span>档案</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/about">
+                    <i class="fa fa-user"></i><span>关于我</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="mobile-header-tag-container">
+        <span class="title">Tags</span>
+        <div id="mobile-header-container-tags">
+            
+        </div>
+    </div>
+</div>
+<div class="search-wrap">
+    <span class="search-close">&times;</span>
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+            <i class="icon icon-lg icon-chevron-left"></i>
+        </a>
+        <input class="search-field" placeholder="Search..." id="keywords">
+        <a id="search-submit" href="javascript:;">
+            <i class="fa fa-search"></i>
+        </a>
+    <div class="search-container" id="search-container">
+        <ul class="search-result" id="search-result">
+        </ul>
+    </div>
+</div>
+
+<div id="search-tpl">
+    <li class="search-result-item">
+        <a href="{url}" class="search-item-li">
+            <span class="search-item-li-title" title="{title}">{title}</span>
+        </a>
+    </li>
+</div>
+<script src="/js/search.js"></script>
+<script src="/js/main.js"></script>
+
+
+  <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
+  <div id="particles"></div>
+  <script src="/js/particles.js"></script>
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <script src="//cdn.bootcss.com/scrollReveal.js/3.0.5/scrollreveal.js"></script>
+  <script src="/js/animate.js"></script>
+
+  </div>
+</body>
+</html>
